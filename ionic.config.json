@@ -1,0 +1,7 @@
+{
+  "name": "GymTime",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
