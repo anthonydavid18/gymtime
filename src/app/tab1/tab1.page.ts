@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  sliderConfig = {
+    spaceBetween: 15,
+    centeredSlides:true,
+    slidesPerView:1.1
+  }
+
   constructor() {}
 
 }

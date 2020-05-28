@@ -1,0 +1,17 @@
+.label-ios, .label{
+    color:rgb(88,88,88) !important;
+    font-weight:bold !important;
+}
+[col-2]{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ion-icon{
+    color:rgb(88,88,88) !important;
+    font-size:2em !important;
+}
+.boton{
+    background: rgb(147,189,1);border-radius: 20px; width: 300px;
+}

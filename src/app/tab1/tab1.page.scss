@@ -1,0 +1,62 @@
+ion-card{
+    --ion-background-color: linear-gradient(120deg,rgb(77, 77, 235),rgb(81, 173, 72));
+    margin: 0 0 4px 0;
+}
+ion-card-title{
+    color: #fff;
+}
+ion-card-subtitle{
+    color: rgba(255, 255, 255, 0.932);
+}
+ion-slides{
+    width: 350px;
+    height: 100px;
+}
+ion-slide{
+    width: 200px !important;
+    height: 100px;
+}
+
+.slider-tab1{
+    height: 200px;
+}
+.tarjetas{
+    --ion-background-color: #fff;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yoga{
+    background-image:url(../../../resources/yoga.jpg);
+    background-size: cover;
+    height: 150px;
+}
+.calentamiento{
+    background-image:url(../../../resources/calentamiento.jpg);
+    background-size: cover;
+    height: 150px;
+}
+.cardio{
+    background-image:url(../../../resources/cardio.jpg);
+    background-position-y: center;
+    background-size: cover;
+    height: 150px;
+}
+.fuerza{
+    background-image:url(../../../resources/223.jpg);
+    background-size: cover;
+    height: 150px;
+}
+.enfriamiento{
+    background-image:url(../../../resources/enfriamiento.jpg);
+    background-position-y: center;
+    background-size: cover;
+    height: 150px;
+}
+.coach{
+    background-image:url(../../../resources/coach.jpg);
+    background-size: cover;
+    height: 150px;
+}
