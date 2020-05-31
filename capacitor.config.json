@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "com.gym.time",
   "appName": "GymTime",
   "bundledWebRuntime": false,
   "npmClient": "npm",

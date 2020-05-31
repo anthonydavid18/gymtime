@@ -2,7 +2,7 @@
 <widget id="com.gym.time" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Top Power</name>
     <description>Una app para ponerte en forma.</description>
-    <author email="hi@ionicframework.com" href="http://ionicframework.com/">David Vilchez</author>
+    <author email="davidvilchez.18@gmail.com" href="#">David Vilchez</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />

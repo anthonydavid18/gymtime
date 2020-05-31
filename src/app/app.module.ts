@@ -9,17 +9,27 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-//firebase config
-import { AngularFireAuthModule } from "@angular/fire/auth";  //Modulo de authenticacion
-import { AngularFireModule } from "@angular/fire";            //Modulo para inicializar y que todo funcione bien vergas
-import { firebaseConfig} from "../environments/environment";     // aqui se encuentra una variable de configuracion para inicializar firebase
 
+// firebase
+
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import Config from './firebase';
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,
-    AngularFireModule.initializeApp(firebaseConfig),AngularFireAuthModule],
+  imports: [BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    AngularFireModule.initializeApp(Config),
+    AngularFireAuthModule,
+    AngularFireAuthModule,
+    AngularFirestoreModule,
+    AngularFireStorageModule
+  ],
   providers: [
     StatusBar,
     SplashScreen,
@@ -27,4 +37,4 @@ import { firebaseConfig} from "../environments/environment";     // aqui se encu
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

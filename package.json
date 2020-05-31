@@ -1,7 +1,7 @@
 {
-  "name": "GymTime",
+  "name": "gymtime",
   "version": "0.0.1",
-  "author": "Ionic Framework",
+  "author": "david vilchez",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
@@ -15,7 +15,6 @@
   "dependencies": {
     "@angular/common": "~9.1.6",
     "@angular/core": "~9.1.6",
-    "@angular/fire": "^6.0.0",
     "@angular/forms": "~9.1.6",
     "@angular/platform-browser": "~9.1.6",
     "@angular/platform-browser-dynamic": "~9.1.6",
@@ -29,12 +28,16 @@
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic-native/video-player": "^5.26.0",
     "@ionic/angular": "^5.0.0",
-    "cordova-android": "8.1.0",
+    "angularfire2": "^5.4.2",
+    "cordova-plugin-androidx": "^1.0.2",
     "cordova-plugin-facebook4": "^6.4.0",
     "cordova-plugin-firebase": "^2.0.5",
+    "cordova-plugin-firebase-lib": "^5.1.1",
+    "cordova-plugin-firebasex": "^9.1.1",
     "cordova-plugin-screen-orientation": "^3.0.2",
     "cordova-plugin-video-player": "git+https://github.com/moust/cordova-plugin-videoplayer.git",
     "es6-promise-plugin": "^4.2.2",
+    "firebase": "^7.14.6",
     "rxjs": "~6.5.1",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -47,6 +50,7 @@
     "@angular/language-service": "~9.1.6",
     "@capacitor/cli": "2.1.0",
     "@ionic/angular-toolkit": "^2.1.1",
+    "@ionic/lab": "3.1.6",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
@@ -82,16 +86,8 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-screen-orientation": {},
       "com.moust.cordova.videoplayer": {},
-      "cordova-plugin-facebook4": {
-        "APP_ID": "287674008937841",
-        "APP_NAME": "GymTime",
-        "FACEBOOK_HYBRID_APP_EVENTS": "false",
-        "FACEBOOK_ANDROID_SDK_VERSION": "5.13.0"
-      },
       "cordova-plugin-firebase": {}
     },
-    "platforms": [
-      "android"
-    ]
+    "platforms": []
   }
 }

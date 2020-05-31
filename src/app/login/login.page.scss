@@ -1,17 +1,135 @@
-.label-ios, .label{
-    color:rgb(88,88,88) !important;
-    font-weight:bold !important;
-}
-[col-2]{
+p {
+    color:#C5CCCD;
+    font-size: 14px;
+    padding: 0 100px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
-ion-icon{
-    color:rgb(88,88,88) !important;
-    font-size:2em !important;
+
+
+.boton ion-button {
+    height: 39px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: bold;
 }
-.boton{
-    background: rgb(147,189,1);border-radius: 20px; width: 300px;
+
+
+// :host {
+//     ion-content {
+//         --background: url('/assets/background.png') no-repeat;
+//     }
+// }
+// ion-content ::ng-deep ion-scroll {
+//     background-image: url('/assets/background.png')!important;
+//     background-repeat: no-repeat!important;
+//     background-position: center;
+//     background-size: contain;
+// }
+h2 {
+    color:#fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+.input-card {
+    border-radius: 5rem;
+    background: #F5F6F7;
+    box-shadow: 0 3px 80px #fff;
+}
+.form{
+    padding: 90px 0px;
+}
+form.input-box {
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    background: #FFFFFF;
+    transition: .2s all;
+}
+
+form.input-box:focus-within {
+    border: 2px solid #fff;
+}
+
+form.input-box:focus-within.error {
+    border: 2px solid #fff;
+}
+
+ion-input {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid #fff;
+}
+
+
+
+input.success {
+    color: #02C4D9;
+}
+
+.buttone {
+    position: relative;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 99999px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    transition: .2s all;
+    transition-timing-function: ease;
+}
+
+.buttone:hover {
+    transform: translatey(3px);
+}
+
+.buttone:focus {
+    outline: none;
+}
+
+.buttone.teal {
+    background-color: #02C4D9;
+    box-shadow: 0 7px 50px rgba(2, 196, 217, 0.5);
+    color: #FFFFFF;
+}
+
+.buttone.teal:hover {
+    box-shadow: 0 2px 10px rgba(2, 196, 217, 0.5);
+}
+
+.buttone.google {
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 20px rgba(39, 68, 74, 0.2);
+    color: #506569;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1rem;
+    margin: 10px 22px;
+}
+
+.buttone.google>img {
+    height: 20px;
+    width: 20px;
+}
+
+.buttone.google:hover {
+    box-shadow: 0 1px 5px rgba(39, 68, 74, 0.2);
+}
+.buttone.facebook {
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 20px rgba(39, 68, 74, 0.2);
+    color: #506569;
+    font-size: 20.5px;
+    line-height: 1rem;
+    margin: 10px 16px;
+}
+
+.buttone.facebook>img {
+    height: 22px;
+    width: 22px;
+}
+
+.buttone.facebook:hover {
+    box-shadow: 0 1px 5px rgba(39, 68, 74, 0.2);
 }
